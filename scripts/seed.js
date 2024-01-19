@@ -169,6 +169,7 @@ async function main() {
   await seedRevenue(client);
 
   await client.end();
+  console.info("Everything seeded")
 }
 
 main().catch((err) => {
